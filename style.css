@@ -44,6 +44,11 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  outline: 3px solid #444;
+  transition: all 400ms ease-in-out;
+}
+
 .btn:focus,
 .search__input:focus {
   outline: none;
@@ -55,4 +60,5 @@ body {
 
 .search.active .btn {
   transform: translateX(12.375rem);
+  outline: none;
 }
